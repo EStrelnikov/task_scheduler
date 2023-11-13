@@ -1,0 +1,68 @@
+#root {
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 700px;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.main {
+  padding: 0 40px 10px;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid gray;
+  margin: 20px 0;
+}
+
+.main__title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.sort {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.sort select {
+  cursor: pointer;
+}
+
+.date, .deadline {
+  border: none;
+  background: rgb(220, 220, 220);
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 300ms;
+  height: 30px;
+  padding: 5px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+}
+
+.list_empty {
+  text-align: center;
+
+}
+
+

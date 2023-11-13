@@ -1,0 +1,51 @@
+.form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form > input,
+.form > textarea {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 98%;
+}
+
+.form > textarea {
+    height: 60px;
+    resize: none;
+}
+
+.footer {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footer input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.change_todo {
+    border: none;
+    background: rgb(128, 101, 225);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 300ms;
+    flex: 1 1 auto;
+    height: 30px;
+}
+
+.change_todo:hover {
+    background: rgb(156, 131, 247);
+}

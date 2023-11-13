@@ -1,0 +1,80 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 15px 10px;
+    gap: 10px;
+}
+
+.item_comleted {
+    background: rgb(219, 219, 219);
+    opacity: 0.6;
+}
+
+.item_comleted  .name {
+    text-decoration: line-through;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.count {
+    margin-right: 5px;
+}
+
+.name {
+    font-weight: 600;
+    font-style: italic;
+    max-width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.done input {
+    width: 17.5px;
+    height: 17.5px;
+    margin: 0 7px 0 0;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.done input:hover {
+    border: black;
+    box-shadow: 
+    -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.12),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+
+.change {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.remove {
+    cursor: pointer;
+}
+
+.description {
+    font-size: 13px;
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.deadline {
+    align-self: end;
+    font-size: 13px;
+}
